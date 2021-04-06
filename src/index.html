@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPS</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- style.css -->
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+
+                    <div class="btn header__burger header__icon">
+                        <span></span>
+                    </div>
+
+                    <div class="divider none"></div>
+                    <div class="logo">
+                        <img class="logo__link_img" src="img/Group.svg" alt="logo">
+                    </div>
+                </div>
+
+                <div class="divider divider-center"></div>
+
+
+                <div class="header__icons">
+                    <div class="btn__modal header__icon none"><img src="img/icons/phone.svg" alt="phone"></div>
+                    <div class="btn__call header__icon none"><img src="img//icons/chat.svg" alt="chat"></div>
+                    <div class="header__icon none"><img src="img/icons/Group2.svg" alt="profile"></div>
+
+                    <div class="divider none"></div>
+
+                    <div class="header__icon"><img src="img/icons/repairs.svg" alt="repair"></div>
+                    <div class="header__icon"><img src="img/icons/repairStatus.svg" alt="repairStatus"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- burger Menu -->
+        <div class="burger">
+            <div class="burger__header">
+                <div class="burger__container">
+                    <div class="burger__body">
+                        <div class="burger__logo">
+
+                            <div class="df">
+                                <div class="btn header__burger header__icon hamburger__line">
+                                    <span></span>
+                                </div>
+
+                                <div class="burger__logo_img">
+                                    <img class="logo__link_img" src="img/Group.svg" alt="logo">
+                                </div>
+                            </div>
+
+                            <div class="header__icon z-in"><img src="img/icons/check.svg" alt="status"></div>
+
+                        </div>
+                    </div>
+
+                    <nav class="burger__menu">
+                        <ul class="burger__list">
+                            <li><a href="#" class="burger__list_item">Ремонт техники</a></li>
+                            <li><a href="#" class="burger__list_item">Услуги и сервисы</a></li>
+                            <li><a href="#" class="burger__list_item">Корпоративным клиентам</a></li>
+                            <li><a href="#" class="burger__list_item">Продавцам техники</a></li>
+                            <li><a href="#" class="burger__list_item">Партнерам</a></li>
+                            <li><a href="#" class="burger__list_item">Производителям</a></li>
+                            <li><a href="#" class="burger__list_item">Наши сервисные центры</a></li>
+                            <li><a href="#" class="burger__list_item">Контакты</a></li>
+                        </ul>
+
+                        <div class="burger__icon">
+                            <div class="header__icon z-in"><img src="img/icons/phone.svg" alt="phone"></div>
+                            <div class="header__icon z-in"><img src="img/icons/chat.svg" alt="chat"></div>
+                            <div class="header__icon z-in"><img src="img/icons/Group2.svg" alt="face"></div>
+                        </div>
+
+                        <div class="burger__contact">
+                            <span class="burger__span">mail@cps.com</span>
+                            <span class="burger__span bold">8 800 890 8900</span>
+
+                            <div class="burger__lang">
+                                <a class="active__lang" href="#">RU</a>
+                                <a href="#">EN</a>
+                                <a href="#">CH</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- End Burger -->
+
+        <!-- Modal -->
+        <div class="modal">
+            <div class="modal__content">
+                <div class="modal__body">
+                    <div class="wrapper">
+                        <div class="btn__modal header__icon"><img src="img/icons/phone.svg" alt="call"></div>
+                        <div class="services__title">Обратная связь</div>
+                    </div>
+
+
+                </div>
+
+                <div class="wrapper">
+                    <form class="modal__form" action="#" method="GET">
+                        <input type="text" placeholder="Имя">
+                        <input type="tel" placeholder="Телефон">
+                        <input type="email" placeholder="Электронная почта">
+                        <textarea  cols="30" rows="10" placeholder="Сообщение"></textarea>
+                    </form>
+
+                    <div class="modal__info_text">
+                        <p>Нажимая “отправить”, вы даете согласие на <span>обработку персональных данных</span> и
+                            соглашаетесь с нашей <span>политикой конфиденциальности</span></p>
+                    </div>
+
+                    <div class="price__term_link">
+                        <div class="df">
+                            <span>Заказать</span>
+                            <div class="swiper__arow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal -->
+
+
+
+        <div class="modal__call">
+            <div class="modal__content">
+                <div class="modal__body">
+                    <div class="wrapper">
+                        <div class="btn__call header__icon"><img src="img/icons/phone.svg" alt="call"></div>
+                        <div class="services__title">Заказать звонок</div>
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <form class="modal__form" action="#" method="GET">
+                        <input type="tel" placeholder="Телефон">
+                    </form>
+
+                    <div class="modal__info_text">
+                        <p>Нажимая “отправить”, вы даете согласие на <span>обработку персональных данных</span> и
+                            соглашаетесь с нашей <span>политикой конфиденциальности</span></p>
+                    </div>
+
+                    <div class="price__term_link">
+                        <div class="df">
+                            <span>Заказать</span>
+                            <div class="swiper__arow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- End Header -->
+
+    <!-- Services -->
+    <main class="services">
+        <div class="container">
+            <div class="services__inner">
+                <h1 class="services__title">Услуги и сервисы</h1>
+                <div class="services__check" style="display: none;">
+                    <div class="df">
+                        <div class="services__mr">
+                            <span class="services__span">Оставить заявку</span>
+                            <div class="btn__modal header__icon"><img src="img/icons/repairs.svg" alt="repair"></div>
+                        </div>
+                    </div>
+                    <div class="df">
+                        <div class="services__mr">
+                            <span class="services__span">Статус ремонта</span>
+                            <div class="btn__call header__icon"><img src="img/icons/repairStatus.svg" alt="repairStatus"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper">
+
+                <ul class="services__info">
+                    <li class="services__item active__item">Ремонтируемые устройства</li>
+                    <li class="services__item">Дополнительные услуги</li>
+                    <li class="services__item">Цены на услуги</li>
+                    <li class="services__item">Адреса сервисных центров</li>
+                    <li class="services__item">Специальные цены</li>
+                </ul>
+
+                <h3 class="services__reviews">Отзывы</h3>
+
+                <div class="services__about_us">
+
+                    <div class="services__info_text">
+                        <p class="services__paragraph">Мы являемся авторизованным сервисным центром по ремонту техники
+                            Dell.
+                            Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией
+                            производителя.
+                        </p>
+
+                        <p class="services__paragraph">Мы успешно работаем с 1992 года и заслужили репутацию надежного
+                            партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к
+                            нам
+                            обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+
+                        <div class="services__read_more">
+                            <a class="services__link" href="#"><img class="services__arrow" src="img/icons/readMore.svg"
+                                    alt="">Читать далее</a>
+                        </div>
+                    </div>
+
+                    <div class="services__img">
+                        <img class="services__img_cps" src="img/cps.png" alt="cps">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="clients">
+            <div class="container">
+                <div class="clients__block_title">
+                    <h3 class="clients__title">Ремонт техники различных брендов</h3>
+                </div>
+
+                <div class="wrapper">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+
+                            <!-- Card 1 -->
+                            <div class="swiper-slide">
+                                <img class="swiper__logo" src="img/cards/Bitmap-1.svg" alt="lenovo">
+                                <div class="swiper__link">
+                                    <div class="swiper__arow"></div>
+                                </div>
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div class="swiper-slide">
+                                <img class="swiper__logo" src="img/cards/Bitmap-2.svg" alt="samsung">
+                                <div class="swiper__link">
+                                    <div class="swiper__arow"></div>
+                                </div>
+                            </div>
+
+                            <!-- Card 3 -->
+                            <div class="swiper-slide">
+                                <img class="swiper__logo" src="img/cards/Bitmap-3.svg" alt="apple">
+                                <div class="swiper__link">
+                                    <div class="swiper__arow"></div>
+                                </div>
+                            </div>
+
+                            <!-- Card 4-->
+                            <div class="swiper-slide">
+                                <img class="swiper__logo" src="img/cards/Bitmap-4.svg" alt="ViewSonic">
+                                <div class="swiper__link">
+                                    <div class="swiper__arow"></div>
+                                </div>
+                            </div>
+
+                            <!-- Card 5 -->
+                            <div class="swiper-slide">
+                                <img class="swiper__logo" src="img/cards/Bitmap-5.svg" alt="ViewSonic">
+                                <div class="swiper__link">
+                                    <div class="swiper__arow"></div>
+                                </div>
+                            </div>
+
+                            <!-- Card 6 -->
+                            <div class="swiper-slide">
+                                <img class="swiper__logo" src="img/cards/Bitmap-6.svg" alt="ViewSonic">
+                                <div class="swiper__link">
+                                    <div class="swiper__arow"></div>
+                                </div>
+                            </div>
+
+                            <!-- Card 7 -->
+                            <div class="swiper-slide">
+                                <img class="swiper__logo" src="img/cards/Bitmap-7.svg" alt="ViewSonic">
+                                <div class="swiper__link">
+                                    <div class="swiper__arow"></div>
+                                </div>
+                            </div>
+
+                            <!-- Card 8 -->
+                            <div class="swiper-slide">
+                                <img class="swiper__logo" src="img/cards/Bitmap-8.svg" alt="ViewSonic">
+                                <div class="swiper__link">
+                                    <div class="swiper__arow"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="clients__cards">
+                    <div class="wrapper">
+                        <div class="grid">
+                            <div class="client__card">
+                                <img src="img/cards/Bitmap-1.svg" alt="">
+                                <div class="swiper__link">
+                                    <div class="swiper__arow"></div>
+                                </div>
+                            </div>
+                            <div class="client__card">
+                                <img src="img/cards/Bitmap-2.svg" alt="">
+                                <div class="swiper__link">
+                                    <div class="swiper__arow"></div>
+                                </div>
+                            </div>
+                            <div class="client__card">
+                                <img src="img/cards/Bitmap-3.svg" alt="">
+                                <div class="swiper__link">
+                                    <div class="swiper__arow"></div>
+                                </div>
+                            </div>
+                            <div class="client__card">
+                                <img src="img/cards/Bitmap-4.svg" alt="">
+                                <div class="swiper__link">
+                                    <div class="swiper__arow"></div>
+                                </div>
+                            </div>
+                            <div class="client__card">
+                                <img src="img/cards/Bitmap-5.svg" alt="">
+                                <div class="swiper__link">
+                                    <div class="swiper__arow"></div>
+                                </div>
+                            </div>
+                            <div class="client__card">
+                                <img src="img/cards/Bitmap-6.svg" alt="">
+                                <div class="swiper__link">
+                                    <div class="swiper__arow"></div>
+                                </div>
+                            </div>
+                            <div class="client__card">
+                                <img src="img/cards/Bitmap-7.svg" alt="">
+                                <div class="swiper__link">
+                                    <div class="swiper__arow"></div>
+                                </div>
+                            </div>
+                            <div class="client__card">
+                                <img src="img/cards/Bitmap-8.svg" alt="">
+                                <div class="swiper__link">
+                                    <div class="swiper__arow"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="services__read_more">
+                            <a class="services__link" href="#"><img class="services__arrow" src="img/icons/readMore.svg"
+                                    alt="">Показать все</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="repairs">
+            <div class="container">
+                <div class="clients__block_title">
+                    <h3 class="clients__title">Ремонт различных видов техники</h3>
+                </div>
+                <div class="wrapper">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+
+                            <!-- Card 1 -->
+                            <div class="swiper-slide">
+                                <div class="swiper__repair">
+                                    <span>Ремонт ноутбуков</span>
+                                    <div class="swiper__link">
+                                        <div class="swiper__arow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 1 -->
+                            <div class="swiper-slide">
+                                <div class="swiper__repair">
+                                    <span>Ремонт планшетов</span>
+                                    <div class="swiper__link">
+                                        <div class="swiper__arow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 1 -->
+                            <div class="swiper-slide">
+                                <div class="swiper__repair">
+                                    <span>Ремонт ПК </span>
+                                    <div class="swiper__link">
+                                        <div class="swiper__arow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper__repair">
+                                    <span>Ремонт </span>
+                                    <div class="swiper__link">
+                                        <div class="swiper__arow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <div class="repairs__container">
+                        <div class="wrapper">
+                            <div class="grid">
+                                <!-- Card 1 -->
+                                <div class="repairs__card">
+                                    <div class="swiper__repair">
+                                        <span>Ремонт ноутбуков</span>
+                                        <div class="swiper__link">
+                                            <div class="swiper__arow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card 1 -->
+                                <div class="repairs__card">
+                                    <div class="swiper__repair">
+                                        <span>Ремонт ноутбуков</span>
+                                        <div class="swiper__link">
+                                            <div class="swiper__arow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card 1 -->
+                                <div class="repairs__card">
+                                    <div class="swiper__repair">
+                                        <span>Ремонт ноутбуков</span>
+                                        <div class="swiper__link">
+                                            <div class="swiper__arow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="repairs__card">
+                                    <div class="swiper__repair">
+                                        <span>Ремонт ноутбуков</span>
+                                        <div class="swiper__link">
+                                            <div class="swiper__arow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="price">
+            <div class="container">
+                <div class="clients__block_title">
+                    <h3 class="clients__title">Цены на услуги</h3>
+                </div>
+
+                <div class="wrapper">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+
+                            <!-- Card 1 -->
+                            <div class="swiper-slide">
+                                <div class="price__info">
+                                    <div class="price__services indent">
+                                        <p class="price__services_paragraph selected__text">Ремонтные услуги</p>
+                                        <span class="price__services_text">Тестирование с выдачей технического
+                                            заключения</span>
+                                    </div>
+                                    <div class="price__tag indent">
+                                        <p class="price__services_paragraph selected__text">Цена</p>
+                                        <span class="price__services_text">Бесплатно</span>
+                                    </div>
+                                    <div class="price__term indent">
+                                        <div class="df">
+                                            <div class="price__term_text-left">
+                                                <p class="price__services_paragraph selected__text">Срок</p>
+                                                <span class="price__services_text">30-120 мин</span>
+                                            </div>
+
+                                            <div class="price__term_link">
+                                                <div class="df">
+                                                    <span>Заказать</span>
+                                                    <div class="swiper__link">
+                                                        <div class="swiper__arow"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="swiper-slide">
+                                <div class="price__info">
+                                    <div class="price__services indent">
+                                        <p class="price__services_paragraph selected__text">Ремонтные услуги</p>
+                                        <span class="price__services_text">Диагностика</span>
+                                    </div>
+                                    <div class="price__tag indent">
+                                        <p class="price__services_paragraph selected__text">Цена</p>
+                                        <span class="price__services_text">Бесплатно</span>
+                                    </div>
+                                    <div class="price__term indent">
+                                        <div class="df">
+                                            <div class="price__term_text-left">
+                                                <p class="price__services_paragraph selected__text">Срок</p>
+                                                <span class="price__services_text">30 мин</span>
+                                            </div>
+
+                                            <div class="price__term_link">
+                                                <div class="df">
+                                                    <span>Заказать</span>
+                                                    <div class="swiper__link">
+                                                        <div class="swiper__arow"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 3 -->
+                            <div class="swiper-slide">
+                                <div class="price__info">
+                                    <div class="price__services indent">
+                                        <p class="price__services_paragraph selected__text">Ремонтные услуги</p>
+                                        <span class="price__services_text">Замена дисплея</span>
+                                    </div>
+                                    <div class="price__tag indent">
+                                        <p class="price__services_paragraph selected__text">Цена</p>
+                                        <span class="price__services_text">1 000 ₽</span>
+                                    </div>
+                                    <div class="price__term indent">
+                                        <div class="df">
+                                            <div class="price__term_text-left">
+                                                <p class="price__services_paragraph selected__text">Срок</p>
+                                                <span class="price__services_text">30-120 мин</span>
+                                            </div>
+
+                                            <div class="price__term_link">
+                                                <div class="df">
+                                                    <span>Заказать</span>
+                                                    <div class="swiper__link">
+                                                        <div class="swiper__arow"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <div class="price__card">
+                        <div class="wrapper">
+                            <div class="price__card_item">
+                                <div class="price__card_row bn">
+                                    <div class="price__card_text card__info_item">Ремонтные услуги</div>
+                                    <div class="price__card_text card__info_item">Цена</div>
+                                    <div class="price__card_text card__info_item">Срок</div>
+                                </div>
+                            </div>
+
+                            <div class="price__card_item ">
+                                <div class="price__card_row">
+                                    <div class="price__card_text">Диагностика</div>
+                                    <div class="price__card_text">Бесплатно</div>
+                                    <div class="price__card_text">30 мин</div>
+                                    <div class="df">
+                                        <div class="price__term_link">
+                                            <div class="df">
+                                                <span>Заказать</span>
+                                                <div class="swiper__link">
+                                                    <div class="swiper__arow"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price__card_item ">
+                                <div class="price__card_row">
+                                    <div class="price__card_text">Замена дисплея</div>
+                                    <div class="price__card_text">1 000 ₽</div>
+                                    <div class="price__card_text">30-120 мин</div>
+                                    <div class="df">
+                                        <div class="price__term_link">
+                                            <div class="df">
+                                                <span>Заказать</span>
+                                                <div class="swiper__link">
+                                                    <div class="swiper__arow"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price__card_item ">
+                                <div class="price__card_row">
+                                    <div class="price__card_text">Замена полифонического динамика</div>
+                                    <div class="price__card_text">1 000 ₽</div>
+                                    <div class="price__card_text">30-120 мин</div>
+                                    <div class="df">
+                                        <div class="price__term_link">
+                                            <div class="df">
+                                                <span>Заказать</span>
+                                                <div class="swiper__link">
+                                                    <div class="swiper__arow"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price__card_item ">
+                                <div class="price__card_row">
+                                    <div class="price__card_text">Тестирование с выдачей технического заключения</div>
+                                    <div class="price__card_text">1 000 ₽</div>
+                                    <div class="price__card_text">30-120 мин</div>
+                                    <div class="df">
+                                        <div class="price__term_link">
+                                            <div class="df">
+                                                <span>Заказать</span>
+                                                <div class="swiper__link">
+                                                    <div class="swiper__arow"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price__card_item ">
+                                <div class="price__card_row">
+                                    <div class="price__card_text">Замена программного обеспечения</div>
+                                    <div class="price__card_text">1 000 ₽</div>
+                                    <div class="price__card_text">30-120 мин</div>
+                                    <div class="df">
+                                        <div class="price__term_link">
+                                            <div class="df">
+                                                <span>Заказать</span>
+                                                <div class="swiper__link">
+                                                    <div class="swiper__arow"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="price__commercial_proposal">
+                        <div class="wrapper">
+                            <div class="price__commercial_proposal_info">
+                                <p class="price__commercial_proposal_paragraph">Все цены указаны с учетом НДС. Стоимость
+                                    ремонта указана на единичную услугу. Для получения коммерческого предложения на
+                                    постоянное обслуживание, оставьте заявку.</p>
+                            </div>
+                            <div class="price__commercial_proposal_link">
+                                <p class="q">Получить коммерческое предложение<i class="swiper__arow"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="confidentiality">
+        <div class="container">
+            <div class="wrapper">
+                <div class="confidentiality__row">
+                    <div class="confidentiality__developers mb-16">
+                        <p class="confidentiality__paragraph"><span>&#169;2019 CPS</span>Разработано командой Apesong</p>
+                    </div>
+                    <div class="mb-16">
+                        <p class="confidentiality__paragraph">Политика конфиденциальности</p>
+                    </div>
+                    <div class="">
+                        <p class="confidentiality__paragraph">Информация, размещенная данной странице, не является
+                            публичной офертой</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+
+</html>
