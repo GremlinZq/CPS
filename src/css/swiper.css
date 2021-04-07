@@ -1,0 +1,121 @@
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-wrapper {
+  margin-bottom: 16px;
+}
+
+.swiper-slide {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 20px 16px;
+  border-radius: 6px;
+  border: 1px solid #EAEAEA;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.swiper__logo {
+  position: relative;
+  top: 0;
+  left: 16px;
+}
+
+.swiper__link {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #FF3E79;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.swiper__arow {
+  position: relative;
+  top: 7px;
+  left: -15px;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.swiper__arow:before,
+.swiper__arow:after {
+  content: '';
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+  border-left: 3px solid #FF3E79;
+  border-bottom: 3px solid #FF3E79;
+  -webkit-animation: swiper__arow 3s linear infinite;
+          animation: swiper__arow 3s linear infinite;
+}
+
+.swiper__arow:after {
+  -webkit-animation: swiper__arow 3s linear infinite -1.5s;
+          animation: swiper__arow 3s linear infinite -1.5s;
+}
+
+@-webkit-keyframes swiper__arow {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(0, 0px) rotate(-45deg);
+            transform: translate(0, 0px) rotate(-45deg);
+  }
+  10%, 90% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0) rotate(-45deg);
+            transform: translate(0, 0) rotate(-45deg);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(0, 20px) rotate(-45deg);
+            transform: translate(0, 20px) rotate(-45deg);
+  }
+}
+
+@keyframes swiper__arow {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(0, 0px) rotate(-45deg);
+            transform: translate(0, 0px) rotate(-45deg);
+  }
+  10%, 90% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0) rotate(-45deg);
+            transform: translate(0, 0) rotate(-45deg);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(0, 20px) rotate(-45deg);
+            transform: translate(0, 20px) rotate(-45deg);
+  }
+}
+
+.swiper-pagination {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.swiper-pagination-bullet {
+  background: #B5B6BC;
+}
+/*# sourceMappingURL=swiper.css.map */
