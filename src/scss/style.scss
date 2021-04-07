@@ -12,11 +12,6 @@ body {
 	margin: 0;
 }
 
-body {
-
-	overflow-x: hidden;
-}
-
 a {
 	color: #1B1C21;
 	text-decoration: none;
@@ -94,6 +89,7 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 24px;
+	overflow: auto;
     grid-row-gap: 16px;
     margin-bottom: 24px;
 }

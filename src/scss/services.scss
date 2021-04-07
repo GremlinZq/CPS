@@ -50,13 +50,15 @@
 		font-weight: 500;
 	}
 
+	&__scroll {
+		overflow: auto;
+		margin-bottom: 24px;
+	}
+
 	&__info {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		overflow: hidden;
-		margin-bottom: 24px;
-		overflow: scroll;
 	}
 
 	&__info::-webkit-scrollbar {
