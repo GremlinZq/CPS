@@ -96,6 +96,17 @@
 		line-height: 24px;
 	}
 
+	&__container {
+		max-height: 80px;
+		overflow: hidden;
+		margin-bottom: 10px;
+		transition: max-height 0.8s;
+	}
+
+	&__container_go {
+		max-height: 100% !important;
+	}
+
 	&__paragraph {
 		max-width: 288px;
 		text-overflow: unset;
@@ -106,8 +117,12 @@
 		margin-bottom: 16px;
 	}
 
-	&__paragraph:nth-child(2) {
+	&__paragraph:nth-child() {
 		display: none;
+	}
+
+	&__paragraph:last-child{
+		margin-bottom: 0;
 	}
 
 
@@ -282,6 +297,18 @@
 
 			.clients__cards {
 				display: block;
+
+				.clients__container {
+					display: grid;
+					grid-template-columns: 1fr 1fr 1fr 1fr;
+					grid-column-gap: 24px;
+					overflow: auto;
+					grid-row-gap: 16px;
+					margin-bottom: 24px;
+					max-height: 100px;
+					transition: max-height 0.8s;
+					overflow: hidden;
+				}
 			}
 		}
 
